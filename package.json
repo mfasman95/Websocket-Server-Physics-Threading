@@ -25,5 +25,16 @@
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "nodemon": "^1.11.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb/base",
+    "rules": {
+      "no-underscore-dangle": "off",
+      "no-plusplus": "off",
+      "no-console": "off"
+    }
+  },
+  "babel": {
+    "presets": ["env"]
   }
 }
